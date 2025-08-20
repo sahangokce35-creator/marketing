@@ -1,3 +1,126 @@
-G-XXXXXXX
-YOUR_FORMSPREE_ENDPOINT
-https://calendly.com/YOURLINK
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>YourBrand — Marketing that brings leads</title>
+  <meta name="description" content="Content, SEO and analytics for small businesses. Get a site that converts, tracked properly, and a 90-day plan." />
+  <link rel="canonical" href="https://sahangokce35-creator.github.io/marketing/" />
+
+  <!-- Google tag (gtag.js) — replace with your real ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXX');
+  </script>
+
+  <style>
+    :root { --bg:#0b0c10; --card:#111317; --text:#e8edf1; --muted:#9aa4ad; --accent:#60a5fa; }
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial}
+    .wrap{max-width:980px;margin:0 auto;padding:32px}
+    .hero{display:grid;gap:14px;padding:48px 0}
+    .kicker{letter-spacing:.12em;color:var(--muted);text-transform:uppercase;font-size:.85rem}
+    h1{font-size:40px;line-height:1.1;margin:6px 0 8px}
+    .lead{color:var(--muted);max-width:52ch}
+    .cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
+    .btn{padding:12px 16px;border-radius:12px;border:1px solid #2a2f36;color:var(--text);text-decoration:none;display:inline-block}
+    .btn.primary{background:var(--accent);border-color:var(--accent);color:#0a0a0a;font-weight:600}
+    .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+    .card{background:var(--card);border:1px solid #222831;border-radius:16px;padding:18px}
+    h3{margin:0 0 8px}
+    ul{margin:10px 0 0 18px}
+    form{display:grid;gap:10px}
+    input, textarea{width:100%;padding:12px;border-radius:10px;border:1px solid #2a2f36;background:#0f1115;color:var(--text)}
+    footer{padding:36px 0;color:var(--muted);font-size:.9rem}
+    .small{font-size:.9rem;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <span class="kicker">Content • SEO • Analytics</span>
+      <h1>Marketing that brings you leads in 90 days</h1>
+      <p class="lead">I build simple, fast websites, write conversion-ready content, and set up GA4/GTM so you know exactly what’s working.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="#contact">Get a proposal</a>
+        <a class="btn" href="#packages">See packages</a>
+      </div>
+    </header>
+
+    <section class="grid">
+      <div class="card">
+        <h3>Content & SEO</h3>
+        <ul>
+          <li>Keyword research & content briefs</li>
+          <li>On-page optimisation & internal links</li>
+          <li>Editorial calendar (90 days)</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Analytics & Tracking</h3>
+        <ul>
+          <li>GA4 + Google Tag Manager</li>
+          <li>Search Console & Microsoft Clarity</li>
+          <li>Looker Studio dashboards</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Conversion</h3>
+        <ul>
+          <li>Fast pages, clear CTAs</li>
+          <li>Lead forms & booking</li>
+          <li>Copy tuned to search intent</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="packages" class="grid" style="margin-top:28px">
+      <div class="card">
+        <h3>Starter Site</h3>
+        <p class="small">1-page site + GA4/GSC + 1 lead form</p>
+        <ul><li>Launch in days</li><li>Basic on-page SEO</li><li>Hand-off video</li></ul>
+      </div>
+      <div class="card">
+        <h3>Growth Site</h3>
+        <p class="small">5 pages + blog + GTM + dashboard</p>
+        <ul><li>2x launch posts</li><li>Conversion tracking</li><li>Internal linking</li></ul>
+      </div>
+      <div class="card">
+        <h3>Pro</h3>
+        <p class="small">10+ pages + tech SEO + reporting</p>
+        <ul><li>Copywriting</li><li>Speed & CWV</li><li>Quarterly roadmap</li></ul>
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top:28px" class="grid">
+      <div class="card">
+        <h3>Get a proposal</h3>
+        <!-- If you don't have Formspree yet, set action="#" for now -->
+        <form action="https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT" method="POST">
+          <input name="name" placeholder="Your name" required />
+          <input name="email" placeholder="Email" type="email" required />
+          <textarea name="message" placeholder="Tell me about your business" rows="5"></textarea>
+          <button class="btn primary" type="submit">Send</button>
+        </form>
+        <p class="small">Prefer to chat? <a href="https://calendly.com/YOURLINK">Book a call</a>.</p>
+      </div>
+      <div class="card">
+        <h3>How it works</h3>
+        <ol>
+          <li>Short call & goals</li>
+          <li>Copy & wireframe</li>
+          <li>Build & tracking</li>
+          <li>Launch & dashboard</li>
+        </ol>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="y"></span> YourBrand • Privacy • Terms
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
